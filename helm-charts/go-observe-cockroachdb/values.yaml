@@ -1,5 +1,5 @@
 replicaCount: 1
 
 image:
-  repository: johnppic/go-observe-cockroachdb
+  repository: allen13/go-observe-cockroachdb
   tag: v0.3.0
