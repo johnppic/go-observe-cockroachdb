@@ -1,4 +1,4 @@
-module github.com/allen13/go-observe-cockroachdb
+module github.com/johnppic/go-observe-cockroachdb
 
 go 1.13
 
