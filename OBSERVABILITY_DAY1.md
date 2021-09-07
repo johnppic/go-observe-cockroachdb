@@ -68,7 +68,7 @@ scraping metrics
 Understand how prometheus scrapes metrics and the different ways you can configure it. See this [getting started](https://github.com/prometheus/prometheus/blob/master/docs/getting_started.md) guide for raw configuration.
 
 
-Review [prometheus-operator](https://coreos.com/blog/the-prometheus-operator.html) and understand how service monitors will assist us with automating the raw config.
+Review prometheus-operator and understand how service monitors will assist us with automating the raw config.
 
 Review the service monitors in the cockroachdb and go-observe-cockroachdb charts.
 
