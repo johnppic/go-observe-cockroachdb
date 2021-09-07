@@ -7,7 +7,7 @@ spec:
   - name: go-observe-cockroachdb.rules
     rules:
     - alert: Alert Name
-      expr: increase(fake_http_request_count{namespace="jpicarazzi"}[5m]) < 10
+      expr: increase(fake_http_request_count{namespace="<my_namespace>"}[5m]) < 10
       labels:
         team: sre
         severity: critical
