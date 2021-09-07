@@ -39,7 +39,7 @@ Add label needed for Prometheus Operator resources
 
     oc label namespace <my_project> openshift.io/cluster-monitoring=true
 
-Install the appp
+Install the application
 
     helm upgrade --install cockroachdb helm-charts/cockroachdb -n my-namespace
     helm upgrade --install go-observe-cockroachdb helm-charts/go-observe-cockroachdb -n my-namespace
