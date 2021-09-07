@@ -83,10 +83,13 @@ google sre
 
 It’s impossible to manage a service correctly, let alone well, without understanding which behaviors really matter for that service and how to measure and evaluate those behaviors. To this end, we would like to define and deliver a given level of service to our users, whether they use an internal API or a public product.
 
-Books
+Primary Link:
+
+* [SLOs](https://landing.google.com/sre/sre-book/chapters/service-level-objectives/)
+
+Secondary Links:
 
 * [Books](https://landing.google.com/sre/books/)
-* [SLOs](https://landing.google.com/sre/sre-book/chapters/service-level-objectives/)
 * [Monitoring Distributed Systems](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/) Defines 4 Golden signals here
 * [Practical Alerting](https://landing.google.com/sre/sre-book/chapters/practical-alerting/)
 * [Alerting on SLOs](https://landing.google.com/sre/workbook/chapters/alerting-on-slos/)
