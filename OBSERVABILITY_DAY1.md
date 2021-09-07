@@ -19,6 +19,7 @@ Understanding the state of your infrastructure and systems is essential for ensu
 Primary Links:
 * [Intro to metrics and monitoring](https://www.digitalocean.com/community/tutorials/an-introduction-to-metrics-monitoring-and-alerting)
 * [Gathering metrics and 4 Golden Signals](https://www.digitalocean.com/community/tutorials/gathering-metrics-from-your-infrastructure-and-applications)
+
 Seconday Link:
 * [USE and RED](https://orangematter.solarwinds.com/2017/10/05/monitoring-and-observability-with-use-and-red/)
 
