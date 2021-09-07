@@ -38,7 +38,7 @@ Create your namespace
 
 Add label needed for Prometheus Operator resources
 
-    oc label namespace <my_project> openshift.io/cluster-monitoring=true
+    oc label namespace my-namespace openshift.io/cluster-monitoring=true
 
 Install the application
 
