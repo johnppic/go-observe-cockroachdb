@@ -16,10 +16,12 @@ When running containers in a distributed environment like kubernetes a proper me
 
 Understanding the state of your infrastructure and systems is essential for ensuring the reliability and stability of your services. Information about the health and performance of your deployments not only helps your team react to issues, it also gives them the security to make changes with confidence. One of the best ways to gain this insight is with a robust monitoring system that gathers metrics, visualizes data, and alerts when things appear to be broken.
 
-
-* [Gathering metrics and 4 Golden Signals](https://www.digitalocean.com/community/tutorials/gathering-metrics-from-your-infrastructure-and-applications)
-* [USE and RED](https://orangematter.solarwinds.com/2017/10/05/monitoring-and-observability-with-use-and-red/)
+Primary Links:
 * [Intro to metrics and monitoring](https://www.digitalocean.com/community/tutorials/an-introduction-to-metrics-monitoring-and-alerting)
+* [Gathering metrics and 4 Golden Signals](https://www.digitalocean.com/community/tutorials/gathering-metrics-from-your-infrastructure-and-applications)
+Seconday Link:
+* [USE and RED](https://orangematter.solarwinds.com/2017/10/05/monitoring-and-observability-with-use-and-red/)
+
 
 deploy applications
 -------------------
@@ -32,13 +34,10 @@ Make sure the prometheus service account has cluster reader priviledges for the 
 Create your namespace
 
     oc new-project my-namespace
-    oc edit ns my-namespace
 
 Add label needed for Prometheus Operator resources
 
-    labels:
-      openshift.io/cluster-monitoring: "true"
-
+    oc label namespace <my_project> openshift.io/cluster-monitoring=true
 
 Install the appp
 
