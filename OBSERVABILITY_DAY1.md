@@ -95,8 +95,3 @@ implement an slo
 ----------------
 
 Using the references above create an SLO. There's already a partially started one in go-observe-cockroachdb. Have it reviewed once you finish.
-
-extra credit
-------------
-
-Add a new metric go the go-observe-cockroachdb app and create an alert/SLO on it.
