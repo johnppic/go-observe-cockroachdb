@@ -12,6 +12,7 @@ deploy applications
 Install the app
 
     oc login
+    oc new-project my-namespace
     helm upgrade --install jaeger helm-charts/jaeger -n my-namespace
     helm upgrade --install cockroachdb helm-charts/cockroachdb -n my-namespace
     helm upgrade --install go-observe-cockroachdb helm-charts/go-observe-cockroachdb -n my-namespace
