@@ -63,16 +63,12 @@ Review the included `observe.go` application to see opentracing in action
 cockroachdb
 -----------
 
-Attempt to enable tracing on cockroachdb. The Zipkin port has already been setup
+Attempt to enable tracing on cockroachdb. The Zipkin port has already been setup.
 
-How to log into the SQL shell
 
     oc rsh cockroachdb-0
     cockroach sql --insecure
+    SET CLUSTER SETTING trace.zipkin.collector='<service_name>:9411';
+    
 
 * [cockroachdb tracing](https://wiki.crdb.io/wiki/spaces/CRDB/pages/73171339/Tracing+logs+with+Jaeger+and+Zipkin)
-
-
-
-
-
